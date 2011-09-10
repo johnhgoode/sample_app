@@ -8,12 +8,12 @@ gem 'rails', '3.0.1'
 gem 'sqlite3-ruby', :require => 'sqlite3'
 
 group :developement, :test do
-  gem 'rspec-rails', ">= 2.0.0.beta"
+    gem 'rspec'
+    gem 'rspec-rails'
+    gem 'autotest'
+    gem 'autotest-standalone'
 end
 
-group :test do
-  gem 'webrat', '0.7.1'
-end
 
 # Use unicorn as the web server
 # gem 'unicorn'
